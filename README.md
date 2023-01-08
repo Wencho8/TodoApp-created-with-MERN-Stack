@@ -1,6 +1,14 @@
 # TodoApp created with MERN Stack
 
+This project was created using MERN
 
+* MongoDB (Using Mongoose)
+* Express.js 
+* React.js
+* Node.js (With Nodemon)
+
+
+Images:
   
 ![todo2](https://user-images.githubusercontent.com/103704812/207214933-70b37eaf-72fe-4ada-901b-cc5f54f57ed5.png)
 ![todo3](https://user-images.githubusercontent.com/103704812/207214936-2e039ba3-b3f3-4c6a-b8e0-8ea57e38f02a.png)
