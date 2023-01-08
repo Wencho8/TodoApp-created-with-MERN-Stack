@@ -1,0 +1,97 @@
+.todo-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+    margin: 1rem 0;
+    background-color: #3619d6;
+    border-radius: 10px;
+  }
+  
+
+  .buttonWrapper{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .icon {
+    cursor: pointer;
+    color: white;
+    height: 24px;
+    width: 24px;
+  }
+
+  .icon:hover {
+    color: #ff2600;
+  }
+  
+  .todo-item h2 {
+    color: #3a3a3a;
+    font-size: 1.2rem;
+    flex: 1;
+    margin: 0 1rem;
+    color: white;
+  }
+
+
+  
+  
+  @media (min-width: 580px) {
+   
+    .todo-item button {
+       background-color: #566ef7;
+       margin: 2px; 
+       color: white;
+       border-radius: 4px;
+    }
+
+  .todo-item button:hover,
+  .todo-item button:active {
+    background-color:  #ff2600;;
+    border-color: #ff2600;
+  }
+  
+
+    input[type=checkbox]
+{
+  cursor: pointer;
+  /* Double-sized Checkboxes */
+  -ms-transform: scale(1.5); /* IE */
+  -moz-transform: scale(1.5);/* FF */
+  -webkit-transform:scale(1.5); /* Safari and Chrome */
+  -o-transform: scale(1.5); /* Opera */
+  transform: scale(1.5);
+  padding: 10px;
+}
+
+  }
+
+  @media (max-width: 580px) {
+
+    .todo-item button {
+      background-color: #566ef7;
+      margin: 2px; 
+      color: white;
+      border-radius: 4px;
+   }
+
+ .todo-item button:hover,
+ .todo-item button:active {
+   background-color:  #ff2600;;
+   border-color: #ff2600;
+ }
+
+    input[type=checkbox]
+    {
+      
+      /* Double-sized Checkboxes */
+      -ms-transform: scale(1.7); /* IE */
+      -moz-transform: scale(1.7);/* FF */
+      -webkit-transform:scale(1.7); /* Safari and Chrome */
+      -o-transform: scale(1.7); /* Opera */
+      transform: scale(1.7);
+      padding: 10px;
+    }
+  }
